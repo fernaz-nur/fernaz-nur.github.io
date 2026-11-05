@@ -90,8 +90,8 @@ fellowships:
     title: "MEETBdREN 2016 workshop fellowship"
     detail: "University of Dhaka"
 
-# Keep the newest award first. The Awards section and its link in the header
-# appear on their own while this list has an entry.
+# Shown on the Awards page, which groups them by year. Keep the newest first and
+# end each period with the year. The header link hides while this list is empty.
 awards:
   - period: "25 Jul 2026"
     title: "Certificate of Appreciation and Crest"
