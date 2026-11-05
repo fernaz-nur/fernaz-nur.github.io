@@ -42,6 +42,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--marigold); outl
 .hero-no-photo { grid-template-columns: minmax(0, 1fr); }
 .hero-text { padding-block: 40px 76px; position: relative; z-index: 2; }
 .role { color: var(--marigold); font-weight: 600; font-size: 18px; margin: 0 0 14px; }
+.roles { display: flex; flex-wrap: wrap; gap: 4px 0; margin: -8px 0 18px; font-size: 16px; font-weight: 500; color: var(--on-plum-muted); }
+.roles span + span::before { content: "·"; margin: 0 10px; color: var(--marigold); }
 .hero h1 { font-family: var(--display); font-weight: 400; font-size: clamp(50px, 6.6vw, 84px); line-height: 1.02; letter-spacing: -.01em; margin: 0 0 20px; text-wrap: balance; }
 .org { font-size: 16px; line-height: 1.55; color: var(--on-plum-muted); margin: 0 0 24px; }
 .bio { font-size: 18px; line-height: 1.65; max-width: 590px; margin: 0 0 14px; color: #efe8f6; }
@@ -173,6 +175,8 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
   .topbar nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--plum); border-top: 1px solid var(--plum-2); padding: 14px 20px 20px; flex-direction: column; gap: 12px; }
   .topbar nav.open { display: flex; }
   .topbar nav a { font-size: 16px; }
+  .roles { flex-direction: column; }
+  .roles span + span::before { display: none; }
   .buttons, .contact-links { gap: 10px; }
   .icon-link { width: 44px; height: 44px; }
   .icon-link svg { width: 24px; height: 24px; }

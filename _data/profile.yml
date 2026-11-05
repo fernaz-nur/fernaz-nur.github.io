@@ -2,7 +2,11 @@
 # Keep the indentation, and keep the quotation marks around text values.
 
 name: "Dr. Fernaz Narin Nur"
-position: "Associate Dean & Professor"
+position: "Professor & Associate Dean"
+# Other current roles, shown under the position at the top of the home page.
+roles:
+  - "Director, Artificial Intelligence Centre"
+  - "Convener, Daffodil AI Club"
 department: "Department of Computer Science and Engineering"
 faculty: "Faculty of Science and Information Technology"
 university: "Daffodil International University · Bangladesh"
@@ -77,11 +81,17 @@ education:
     title: "BSc in Computer Science and Engineering"
     detail: "Jahangirnagar University"
 
-# All positions are in Computer Science and Engineering departments.
+# The teaching positions are all in Computer Science and Engineering departments.
 positions:
   - period: "Current"
     title: "Associate Dean & Professor"
     detail: "Daffodil International University"
+  - period: "Current"
+    title: "Director"
+    detail: "Artificial Intelligence Centre, Daffodil International University"
+  - period: "Current"
+    title: "Convener"
+    detail: "Daffodil AI Club, Daffodil International University"
   - period: "Apr 2024 – Sep 2025"
     title: "Professor"
     detail: "Military Institute of Science and Technology (MIST)"

@@ -13,6 +13,9 @@ layout: default
     <div class="inner hero-grid{% unless photo %} hero-no-photo{% endunless %}">
       <div class="hero-text">
         <p class="role">{{ profile.position | escape }}</p>
+        {%- if profile.roles %}
+        <p class="roles">{% for role in profile.roles %}<span>{{ role | escape }}</span>{% endfor %}</p>
+        {%- endif %}
         <h1>{{ profile.name | escape }}</h1>
         <p class="org">{{ profile.department | escape }}<br>{{ profile.faculty | escape }}<br>{{ profile.university | escape }}</p>
         {%- for paragraph in profile.bio %}
