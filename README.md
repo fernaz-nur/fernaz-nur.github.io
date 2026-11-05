@@ -8,7 +8,7 @@ All of these can be made in the browser on github.com. The site updates a minute
 
 | To change | Edit |
 |---|---|
-| Bio, title, email, links, research interests, teaching, education, positions, fellowships | `_data/profile.yml` |
+| Bio, title, email, links, research interests, teaching, education, positions, fellowships, awards | `_data/profile.yml` |
 | Add or change a paper, its image, or what appears on the home page | `_data/publications.yml` (instructions are at the top of the file) |
 | Colours, text sizes, spacing | `style.css` |
 | Page layout | `index.html`, `publications.html`, `_layouts/`, `_includes/` |

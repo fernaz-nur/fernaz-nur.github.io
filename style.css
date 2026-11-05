@@ -118,6 +118,7 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
 .row-title { font-weight: 600; font-size: 16px; line-height: 1.4; color: var(--plum); }
 .row-when { flex: none; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .row-detail { font-size: 15px; line-height: 1.45; color: var(--muted); }
+.awards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 56px; }
 
 /* Contact and footer */
 .contact { background: var(--plum); color: var(--on-plum); padding-block: 60px; }
@@ -134,10 +135,11 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
 
 @media (max-width: 1020px) {
   .hero-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
-  .hero-text { padding-bottom: 28px; }
-  .portrait { width: 100%; max-width: 420px; height: 420px; margin-inline: auto; }
+  .hero-text { padding-block: 12px 56px; }
+  /* When the hero stacks, the photo comes first. Its bottom edge is a hard crop, so it fades into the background above the text. */
+  .portrait { order: -1; width: 100%; max-width: 420px; height: 420px; margin-inline: auto; margin-top: 16px; }
   .portrait svg { left: 50%; top: -30px; width: 560px; height: 560px; transform: translateX(-50%); }
-  .portrait img { width: 100%; height: auto; aspect-ratio: 1; }
+  .portrait img { width: 100%; height: auto; aspect-ratio: 1; -webkit-mask-image: linear-gradient(to bottom, #000 78%, transparent); mask-image: linear-gradient(to bottom, #000 78%, transparent); }
   .numbers .inner { flex-direction: column; align-items: stretch; }
   .chart figcaption { text-align: left; }
   .bars { justify-content: space-between; gap: 5px; }
@@ -146,15 +148,21 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
   .year-group { grid-template-columns: minmax(0, 1fr); gap: 18px; }
   .year-group h2 { position: static; font-size: 36px; }
   .cols { grid-template-columns: 1fr 1fr; }
+  .topbar nav { gap: 20px; }
+}
+
+/* Below this width the header links no longer fit beside the name, so they move into the Menu button. */
+@media (max-width: 880px) {
+  .nav-toggle { display: block; }
+  .topbar nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--plum); border-top: 1px solid var(--plum-2); padding: 14px max(calc((100% - 1160px) / 2), 48px) 20px; flex-direction: column; gap: 12px; }
+  .topbar nav.open { display: flex; }
+  .topbar nav a { font-size: 16px; }
 }
 
 @media (max-width: 760px) {
   .inner { width: min(100% - 40px, 1160px); }
   .band { padding-block: 52px; }
-  .nav-toggle { display: block; }
-  .topbar nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--plum); border-top: 1px solid var(--plum-2); padding: 14px 20px 20px; flex-direction: column; gap: 12px; }
-  .topbar nav.open { display: flex; }
-  .topbar nav a { font-size: 16px; }
+  .topbar nav { padding-inline: 20px; }
   .portrait { max-width: 340px; height: 340px; }
   .portrait svg { width: 460px; height: 460px; }
   .stats { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
@@ -169,5 +177,6 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
   .pub-title { font-size: 19px; }
   .year-group { padding-block: 28px; }
   .cols { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .awards { grid-template-columns: minmax(0, 1fr); }
   .row-top { flex-direction: column; gap: 0; }
 }

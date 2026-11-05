@@ -118,6 +118,17 @@ layout: default
     </div>
   </section>
 
+  {%- if profile.awards.size > 0 %}
+  <section class="band" id="awards">
+    <div class="inner">
+      <h2>Awards</h2>
+      <div class="awards">
+        {%- include entries.html items=profile.awards %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
   <section class="contact" id="contact">
     <div class="inner">
       <div>

@@ -89,3 +89,12 @@ fellowships:
   - period: "Apr 2016"
     title: "MEETBdREN 2016 workshop fellowship"
     detail: "University of Dhaka"
+
+# The Awards section and its link in the header appear on their own once this
+# list has an entry. To add an award, replace [] with entries like this:
+#
+# awards:
+#   - period: "2024"
+#     title: "Name of the award"
+#     detail: "Who gave it, and what it was for"
+awards: []
