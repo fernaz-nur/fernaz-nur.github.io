@@ -37,9 +37,9 @@ To go back to an illustration, point `image:` at its `.svg` file and remove the 
 
 ## Where the site is published
 
-The site is live at <https://raficloud.github.io/fernaz-nur.github.io/>. GitHub Pages builds it from the `main` branch of this repository, folder `/ (root)`, and updates it a minute or two after each change.
+The site is live at <https://fernaz-nur.github.io/>. GitHub Pages builds it from the `main` branch of this repository, folder `/ (root)`, and updates it a minute or two after each change.
 
-The address comes from the account and repository names. If either changes, update `url` and `baseurl` in `_config.yml` to match. An address without the folder, such as `https://USERNAME.github.io`, needs a repository named exactly `USERNAME.github.io`, and then `baseurl` should be removed.
+The address comes from the `fernaz-nur` organization, which owns this repository. The repository must keep the name `fernaz-nur.github.io`. If either name changes, the address changes too, so update `url` in `_config.yml` to match.
 
 ## Previewing on your own computer (optional)
 
@@ -57,7 +57,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Then open <http://127.0.0.1:4000/fernaz-nur.github.io/>.
+Then open <http://127.0.0.1:4000>.
 
 ## Where the content came from
 
