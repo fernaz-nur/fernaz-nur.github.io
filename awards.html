@@ -2,12 +2,13 @@
 layout: default
 title: Awards
 permalink: /awards/
-description: Awards received by Dr. Fernaz Narin Nur.
+description: Awards, fellowships and scholarships received by Dr. Fernaz Narin Nur.
 ---
 {%- assign by_year = site.data.profile.awards | group_by_exp: "award", "award.period | slice: -4, 4" %}
   <section class="page-head">
     <div class="inner">
       <h1>Awards</h1>
+      <p>Recognitions for leadership, organizing, and speaking contributions to AI and Computer Science communities, at Daffodil International University and beyond.</p>
     </div>
   </section>
 
@@ -15,7 +16,7 @@ description: Awards received by Dr. Fernaz Narin Nur.
     <div class="inner">
       {%- for group in by_year %}
       <div class="year-group">
-        <h2>{{ group.name }}</h2>
+        <h2>{{ group.name | default: "Other" }}</h2>
         <div class="awards">
           {%- include entries.html items=group.items %}
         </div>

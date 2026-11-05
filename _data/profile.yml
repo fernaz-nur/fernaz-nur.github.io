@@ -12,24 +12,52 @@ teaching_since: 2011
 bio:
   - "I’m Dr. Fernaz Narin Nur, a Professor in the Department of Computer Science and Engineering at Daffodil International University, Bangladesh. My research interests include Network Security, Quantum Computing, Wireless Networks, Internet of Things (IoT), and Artificial Intelligence (AI). I’m passionate about exploring how emerging technologies can be leveraged to build secure, intelligent, and efficient systems. Throughout my career, I’ve been committed to advancing research, mentoring students, and contributing to innovations that shape the future of computing."
 
-# The first link becomes the gold button on the home page.
+# Shown as icon buttons. "icon" is the name of a file in _includes/icons/, and
+# "label" is what appears on hover and what screen readers announce.
 links:
   - label: "Google Scholar"
+    icon: "googlescholar"
     url: "https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en"
   - label: "ResearchGate"
+    icon: "researchgate"
     url: "https://www.researchgate.net/profile/Fernaz-Nur"
   - label: "Faculty Profile"
+    icon: "faculty"
     url: "https://faculty.daffodilvarsity.edu.bd/profile/cse/fernaz.html"
+  - label: "ORCID"
+    icon: "orcid"
+    url: "https://orcid.org/0000-0003-3273-0553"
+  - label: "LinkedIn"
+    icon: "linkedin"
+    url: "https://bd.linkedin.com/in/dr-fernaz-nur-a5b320266"
+  - label: "GitHub"
+    icon: "github"
+    url: "https://github.com/fernaznur/"
 
+# "icon" is the name of a file in _includes/icons/.
 research_interests:
-  - "Wireless Networks"
-  - "Cloud Computing"
-  - "Internet of Things"
-  - "Network Security"
-  - "Cyber Security"
-  - "Artificial Intelligence"
-  - "Software-Defined Networking"
-  - "Quantum Computing"
+  - group: "Networks"
+    areas:
+      - name: "Wireless Networks"
+        icon: "wifi"
+      - name: "Software-Defined Networking"
+        icon: "topology-star-3"
+      - name: "Internet of Things"
+        icon: "cpu"
+      - name: "Cloud Computing"
+        icon: "cloud"
+  - group: "Security"
+    areas:
+      - name: "Network Security"
+        icon: "shield-lock"
+      - name: "Cyber Security"
+        icon: "lock"
+  - group: "Emerging Computing"
+    areas:
+      - name: "Artificial Intelligence"
+        icon: "brain"
+      - name: "Quantum Computing"
+        icon: "atom"
 
 teaching:
   - "Computer Networks"
@@ -91,7 +119,8 @@ fellowships:
     detail: "University of Dhaka"
 
 # Shown on the Awards page, which groups them by year. Keep the newest first and
-# end each period with the year. The header link hides while this list is empty.
+# end each period with the year. Entries with no date go last, with period "",
+# and appear under "Other". The header link hides while this list is empty.
 awards:
   - period: "25 Jul 2026"
     title: "Certificate of Appreciation and Crest"
@@ -99,3 +128,18 @@ awards:
   - period: "7 Jun 2026"
     title: "Certificate of Appreciation"
     detail: "Speaker, seminar “How to Choose a Research Topic & Start Research”. Daffodil AI Club, Daffodil International University"
+  - period: "Apr – Dec 2025"
+    title: "Research fellowship"
+    detail: "Asia-Europe Foundation (ASEF) Innovation Lab"
+  - period: "Sep – Oct 2016"
+    title: "APNIC 42 conference fellowship"
+    detail: "Asia Pacific Network Information Centre, Colombo, Sri Lanka"
+  - period: "Apr 2016"
+    title: "MEETBdREN 2016 workshop fellowship"
+    detail: "University of Dhaka"
+  - period: ""
+    title: "Research fellowship"
+    detail: "Information and Communication Technology Division, Ministry of Posts, Telecommunications and Information Technology, Government of Bangladesh"
+  - period: ""
+    title: "Academic scholarships"
+    detail: "BSc (yearly result), HSC and SSC, along with primary and secondary scholarships"

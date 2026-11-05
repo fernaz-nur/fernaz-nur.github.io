@@ -62,3 +62,5 @@ Then open <http://127.0.0.1:4000>.
 ## Where the content came from
 
 The profile details and publication list come from the professor's [DIU faculty profile](https://faculty.daffodilvarsity.edu.bd/profile/cse/fernaz.html). DOI links, and corrections to some authors and titles, come from publisher records on [Crossref](https://www.crossref.org/).
+
+The link icons come from [Simple Icons](https://simpleicons.org/) (CC0), and the logos belong to their owners. The Faculty Profile icon is a plain building. The research icons come from [Tabler Icons](https://tabler.io/icons) (MIT licence, included in `_includes/icons/`).

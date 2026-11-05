@@ -12,7 +12,7 @@ description: Publications by Dr. Fernaz Narin Nur, including journal papers, con
     <div class="inner">
       <h1>Publications</h1>
       <p>{{ pubs | size }} publications: {% for group in by_type %}{{ group.name }} {{ group.size }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
-      <div class="buttons"><a class="button button-main" href="{{ scholar.url | escape }}" target="_blank" rel="noopener">Google Scholar</a></div>
+      <div class="buttons">{% include icon-link.html link=scholar %}</div>
     </div>
   </section>
 

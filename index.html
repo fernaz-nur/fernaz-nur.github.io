@@ -20,7 +20,7 @@ layout: default
         {%- endfor %}
         <div class="buttons">
           {%- for link in profile.links %}
-          <a class="button{% if forloop.first %} button-main{% endif %}" href="{{ link.url | escape }}" target="_blank" rel="noopener">{{ link.label | escape }}</a>
+          {% include icon-link.html link=link %}
           {%- endfor %}
           {%- if cv %}
           <a class="button" href="{{ cv.path | relative_url }}" target="_blank" rel="noopener">CV (PDF)</a>
@@ -66,27 +66,21 @@ layout: default
     <div class="inner">
       <h2>Research</h2>
       <div class="areas">
-        <ul>
-          {%- for interest in profile.research_interests %}
-          <li>{{ interest | escape }}</li>
-          {%- endfor %}
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="band" id="publications">
-    <div class="inner">
-      <div class="head"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All {{ pubs | size }} publications →</a></div>
-      <div class="pub-list">
-        {%- for pub in selected %}
-        {% include publication.html pub=pub %}
+        {%- for group in profile.research_interests %}
+        <div class="area-group">
+          <h3>{{ group.group | escape }}</h3>
+          <ul>
+            {%- for area in group.areas %}
+            <li>{% include icons/{{ area.icon }}.svg %}{{ area.name | escape }}</li>
+            {%- endfor %}
+          </ul>
+        </div>
         {%- endfor %}
       </div>
     </div>
   </section>
 
-  <section class="band band-mist" id="background">
+  <section class="band" id="background">
     <div class="inner">
       <h2>Background</h2>
       <div class="cols">
@@ -118,6 +112,17 @@ layout: default
     </div>
   </section>
 
+  <section class="band band-mist" id="publications">
+    <div class="inner">
+      <div class="head"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All {{ pubs | size }} publications →</a></div>
+      <div class="pub-list">
+        {%- for pub in selected %}
+        {% include publication.html pub=pub %}
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
   <section class="contact" id="contact">
     <div class="inner">
       <div>
@@ -125,7 +130,7 @@ layout: default
         <p>For academic collaboration, research discussions, and professional inquiries.</p>
         <div class="contact-links">
           {%- for link in profile.links %}
-          <a href="{{ link.url | escape }}" target="_blank" rel="noopener">{{ link.label | escape }} ↗</a>
+          {% include icon-link.html link=link %}
           {%- endfor %}
         </div>
       </div>
