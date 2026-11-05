@@ -1,6 +1,6 @@
 # Dr. Fernaz Narin Nur — Academic Website
 
-A responsive academic website with a home page, a full publications page and an awards page. GitHub Pages builds it automatically with Jekyll, so nothing needs to be installed to publish or edit it.
+A responsive academic website with a home page, a full publications page, an awards page and a press and talks page. GitHub Pages builds it automatically with Jekyll, so nothing needs to be installed to publish or edit it.
 
 ## Common edits
 
@@ -10,8 +10,9 @@ All of these can be made in the browser on github.com. The site updates a minute
 |---|---|
 | Bio, title, email, links, research interests, teaching, education, positions, fellowships, awards | `_data/profile.yml` |
 | Add or change a paper, its image, or what appears on the home page | `_data/publications.yml` (instructions are at the top of the file) |
+| Talks, events and news coverage | `_data/talks.yml` (instructions are at the top of the file) |
 | Colours, text sizes, spacing | `style.css` |
-| Page layout | `index.html`, `publications.html`, `awards.html`, `_layouts/`, `_includes/` |
+| Page layout | `index.html`, `publications.html`, `awards.html`, `press.html`, `_layouts/`, `_includes/` |
 
 ## Adding the photo and CV
 

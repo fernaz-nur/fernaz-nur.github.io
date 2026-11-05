@@ -1,0 +1,26 @@
+---
+layout: default
+title: Press & Talks
+permalink: /press/
+description: Talks, events and news coverage featuring Dr. Fernaz Narin Nur.
+---
+{%- assign by_year = site.data.talks | group_by_exp: "talk", "talk.period | slice: -4, 4" %}
+  <section class="page-head">
+    <div class="inner">
+      <h1>Press &amp; Talks</h1>
+      <p>Talks, events and news coverage</p>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="inner">
+      {%- for group in by_year %}
+      <div class="year-group">
+        <h2>{{ group.name | default: "Other" }}</h2>
+        <div class="listing">
+          {%- include entries.html items=group.items %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </section>

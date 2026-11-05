@@ -29,7 +29,7 @@
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
     <nav id="navigation">
       {%- assign home = '/' | relative_url %}
-      <a href="{{ home }}#about">About</a><a href="{{ '/publications/' | relative_url }}">Publications</a>{% if site.data.profile.awards.size > 0 %}<a href="{{ '/awards/' | relative_url }}">Awards</a>{% endif %}<a href="{{ home }}#contact">Contact</a>
+      <a href="{{ home }}#about">About</a><a href="{{ '/publications/' | relative_url }}">Publications</a>{% if site.data.profile.awards.size > 0 %}<a href="{{ '/awards/' | relative_url }}">Awards</a>{% endif %}{% if site.data.talks.size > 0 %}<a href="{{ '/press/' | relative_url }}">Press &amp; Talks</a>{% endif %}<a href="{{ home }}#contact">Contact</a>
     </nav>
   </div>
 </header>

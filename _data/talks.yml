@@ -1,0 +1,47 @@
+# Talks, events and news coverage, shown on the Press & Talks page.
+#
+# The page groups entries by year. Keep the newest first and end each period
+# with the year. "links" is optional: add one for a news report or event page.
+# The header link hides while this list is empty.
+#
+#   - period: "18 Feb 2026"
+#     title: "Name of the talk, seminar or event"
+#     detail: "Her role. Who organized it"
+#     links:
+#       - label: "BSS News report"
+#         url: "https://..."
+
+- period: "11 Oct 2026"
+  title: "Machine Learning from Zero to Hands-On Bootcamp 2026"
+  detail: "Chief Guest, Day 1: Foundations of Machine Learning. DIU Quantum Computing Research & Development Center, Daffodil International University"
+  links:
+    - label: "Event post"
+      url: "https://www.facebook.com/diuqcrc/posts/pfbid02rQzUvvCLZt2gHgRgpdmo4eRU4EJmucqqqYtyxgbSV78j1UdB6owTezmjBtUdT74il"
+
+- period: "6 Oct 2026"
+  title: "AI DEV FEST 2026: Opening Ceremony"
+  detail: "Spoke at the opening ceremony as Associate Dean, Faculty of Science and Information Technology. Organized by DIU CPC (Computer and Programming Club), Department of CSE, Daffodil International University"
+  links:
+    - label: "Event post"
+      url: "https://www.facebook.com/diucpc.official/posts/pfbid0riaNU1FKJgsjWUYYf8fPGgKpTMscsWtPHeb2gxaTp5TqAXLBXMa3Hg37AZA6uVLel"
+
+- period: "Jun 2026"
+  title: "What Does the Industry Really Expect from Future AI & Machine Learning Engineers?"
+  detail: "Shared her insights as Convener of the Daffodil AI Club and CSE AI Centre, at this career seminar with an industry speaker. Daffodil AI Club, Daffodil International University"
+  links:
+    - label: "Event post"
+      url: "https://www.facebook.com/daffodilaiclub/posts/pfbid02pRtFTJht4hGAa7PwB4b8tMepeK88AMp8JWMDAasW2pLmM8bLyzL5mKXG3fSwHeQel"
+
+- period: "7 Jun 2026"
+  title: "How to Choose a Research Topic & Start Research"
+  detail: "Speaker, seminar. Daffodil AI Club, Daffodil International University"
+  links:
+    - label: "Event post"
+      url: "https://www.facebook.com/daffodilaiclub/posts/pfbid01MdgF4sU6fpJMqAW79DGkvHZ2fD8XL8HVM35njdtQptYjjHCfyBT61wSScHEaacLl"
+
+- period: "18 Feb 2026"
+  title: "Digital Twin: Transforming the Future of Intelligent Systems"
+  detail: "Convener of the Daffodil AI Club, gave the closing remarks. Seminar organized by Dhaka University and the Daffodil AI Club at Daffodil International University"
+  links:
+    - label: "BSS News report"
+      url: "https://www.bssnews.net/others/362174"

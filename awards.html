@@ -17,7 +17,7 @@ description: Awards, fellowships and scholarships received by Dr. Fernaz Narin N
       {%- for group in by_year %}
       <div class="year-group">
         <h2>{{ group.name | default: "Other" }}</h2>
-        <div class="awards">
+        <div class="listing">
           {%- include entries.html items=group.items %}
         </div>
       </div>

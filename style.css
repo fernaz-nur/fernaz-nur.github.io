@@ -126,12 +126,15 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
 .row-title { font-weight: 600; font-size: 16px; line-height: 1.4; color: var(--plum); }
 .row-when { flex: none; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .row-detail { font-size: 15px; line-height: 1.45; color: var(--muted); }
-.awards { min-width: 0; }
-.awards .row { padding-block: 18px; }
-.awards .row:first-child { border-top: 0; padding-top: 6px; }
-.awards .row-title { font-size: 20px; font-weight: 700; line-height: 1.3; }
-.awards .row-when { font-size: 15px; }
-.awards .row-detail { font-size: 16px; margin-top: 6px; }
+.listing { min-width: 0; }
+.listing .row { padding-block: 18px; }
+.listing .row:first-child { border-top: 0; padding-top: 6px; }
+.listing .row-title { font-size: 20px; font-weight: 700; line-height: 1.3; }
+.listing .row-when { font-size: 15px; }
+.listing .row-detail { font-size: 16px; margin-top: 6px; }
+.row-links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 8px; }
+.row-links a { font-size: 15px; font-weight: 600; color: var(--coral); text-decoration: none; }
+.row-links a:hover { text-decoration: underline; }
 
 /* Contact and footer */
 .contact { background: var(--plum); color: var(--on-plum); padding-block: 60px; }

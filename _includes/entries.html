@@ -4,5 +4,12 @@
   {%- if entry.detail %}
   <div class="row-detail">{{ entry.detail | escape }}</div>
   {%- endif %}
+  {%- if entry.links %}
+  <div class="row-links">
+    {%- for link in entry.links %}
+    <a href="{{ link.url | escape }}" target="_blank" rel="noopener">{{ link.label | escape }} ↗</a>
+    {%- endfor %}
+  </div>
+  {%- endif %}
 </div>
 {%- endfor %}
