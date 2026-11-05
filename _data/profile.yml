@@ -90,11 +90,12 @@ fellowships:
     title: "MEETBdREN 2016 workshop fellowship"
     detail: "University of Dhaka"
 
-# The Awards section and its link in the header appear on their own once this
-# list has an entry. To add an award, replace [] with entries like this:
-#
-# awards:
-#   - period: "2024"
-#     title: "Name of the award"
-#     detail: "Who gave it, and what it was for"
-awards: []
+# Keep the newest award first. The Awards section and its link in the header
+# appear on their own while this list has an entry.
+awards:
+  - period: "25 Jul 2026"
+    title: "Certificate of Appreciation and Crest"
+    detail: "Organizing Co-Chair, AI Innovation Hackathon 2026: From Learning to Impact. Department of CSE, Daffodil International University"
+  - period: "7 Jun 2026"
+    title: "Certificate of Appreciation"
+    detail: "Speaker, seminar “How to Choose a Research Topic & Start Research”. Daffodil AI Club, Daffodil International University"
