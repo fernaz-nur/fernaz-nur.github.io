@@ -1,0 +1,25 @@
+{%- assign pub = include.pub -%}
+{%- assign link = pub.url -%}
+{%- if pub.doi -%}{%- assign link = "https://doi.org/" | append: pub.doi -%}{%- endif -%}
+{%- assign image = pub.image | default: "assets/publications/default.svg" -%}
+{%- assign authors = pub.authors | escape | replace: "Fernaz Narin Nur", "<b>Fernaz Narin Nur</b>" | replace: "F. N. Nur", "<b>F. N. Nur</b>" | replace: "F. Narin Nur", "<b>F. Narin Nur</b>" -%}
+{%- capture picture -%}<img src="{{ image | prepend: '/' | relative_url }}" alt="{{ pub.image_alt | escape }}" width="480" height="300" loading="lazy">{%- endcapture -%}
+<article class="pub">
+  {%- if link %}
+  <a class="pub-image{% if pub.image_credit %} pub-figure{% endif %}" href="{{ link | escape }}" target="_blank" rel="noopener"{% unless pub.image_alt %} tabindex="-1" aria-hidden="true"{% endunless %}>{{ picture }}</a>
+  {%- else %}
+  <div class="pub-image{% if pub.image_credit %} pub-figure{% endif %}">{{ picture }}</div>
+  {%- endif %}
+  <div>
+    <h3 class="pub-title">{% if link %}<a href="{{ link | escape }}" target="_blank" rel="noopener">{{ pub.title | escape }}</a>{% else %}{{ pub.title | escape }}{% endif %}</h3>
+    <p class="pub-authors">{{ authors }}</p>
+    <p class="pub-venue">{{ pub.venue | escape }}</p>
+    <div class="pub-tags">
+      <span class="pub-kind">{{ pub.type | escape }} · {{ pub.year }}</span>
+      {%- if pub.note %}<span class="pub-note">{{ pub.note | escape }}</span>{% endif %}
+    </div>
+    {%- if pub.image_credit %}
+    <p class="pub-credit">{{ pub.image_credit | escape }} · <a href="{{ pub.image_license_url | escape }}" target="_blank" rel="license noopener">{{ pub.image_license | escape }}</a></p>
+    {%- endif %}
+  </div>
+</article>

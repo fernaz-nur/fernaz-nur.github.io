@@ -1,0 +1,661 @@
+# Publications listed on the site, newest first.
+#
+# To add a paper, copy an entry, paste it in, and edit the values:
+#
+#   title:    paper title
+#   authors:  authors, in the order published
+#   venue:    journal or conference, with volume and pages
+#   year:     year of publication
+#   type:     Journal, Conference, Book chapter or Book
+#   doi:      (optional) makes the title a link to the paper
+#   url:      (optional) link to use when the paper has no DOI
+#   image:    (optional) picture beside the paper. Put the file in assets/publications/
+#             and write its path here. Without this, a plain default picture is used.
+#   image_alt, image_credit, image_license, image_license_url:
+#             (needed for a figure from a paper) what the figure shows, which figure it is
+#             and any changes made, then its licence and a link to that licence.
+#   selected: (optional) true also shows the paper on the home page
+#   note:     (optional) short label, such as "Best paper award"
+#
+# Keep the two-space indent, and keep the quotation marks around text values.
+
+- title: "A comprehensive dataset of rice leaf images for disease detection using machine learning"
+  authors: "Afif Hasan, Tanvir Almas Layes, Arafat Sahin Afridi, Shakhawath Hossain Rifat, Fernaz Narin Nur, Nazmun Nessa Moon"
+  venue: "Data in Brief, Volume 62, 2025, 111977"
+  year: 2025
+  type: Journal
+  image: "assets/publications/2025-a-comprehensive-dataset-of-rice-leaf.svg"
+  doi: "10.1016/j.dib.2025.111977"
+
+- title: "JoTPaRS: A Job Title Prediction and Recommendation System for IT Professionals"
+  authors: "Shafika Rahman, Fernaz Narin Nur, Arafat Sahin Afridi, A. H. M. Saiful Islam, Shaheena Sultana, Nazmus Nessa Moon"
+  venue: "Advances in Artificial Intelligence and Machine Learning, 5, 4356-4378, 2025"
+  year: 2025
+  type: Journal
+  image: "assets/publications/2025-jotpars-a-job-title-prediction-and.svg"
+  doi: "10.54364/AAIML.2025.53242"
+
+- title: "SPAS-Dataset-BD: Dataset for smart precision agriculture system in Bangladesh"
+  authors: "Rup Chowdhury, Fernaz Narin Nur, Muhammad Nazrul Islam, Md. Nazmul Islam, Prapti Das, Arafat Sahin Afridi"
+  venue: "Data in Brief, Volume 61, 2025, 111727"
+  year: 2025
+  type: Journal
+  image: "assets/publications/2025-spas-dataset-bd-dataset-for-smart.svg"
+  doi: "10.1016/j.dib.2025.111727"
+
+- title: "Q-DMAC: Quality-Aware Distributed Channel Selection MAC Protocol for Enhancing Multi-Channel Communication in Directional Sensor Networks"
+  authors: "M. Islam, Fernaz Narin Nur, S. Sharmin, S. Saha, M. Haque and A. Habib"
+  venue: "IEEE Access, vol. 13, pp. 50996-51011, 2025"
+  year: 2025
+  type: Journal
+  image: "assets/publications/2025-q-dmac-quality-aware-distributed-channel.svg"
+  doi: "10.1109/ACCESS.2025.3551960"
+  selected: true
+
+- title: "An Efficient Deadline Based Priority Job Scheduling in Mobile Cloud Computing"
+  authors: "Muhammad Makama Mahmudur Rahman Ohee, Fernaz Narin Nur, Asif Karim, Shaheena Sultana, Sami Azam, and Nazmun Nessa Moon"
+  venue: "IET Communications 19, no. 1 (2025): e70031"
+  year: 2025
+  type: Journal
+  image: "assets/publications/2025-an-efficient-deadline-based-priority-job.svg"
+  doi: "10.1049/cmu2.70031"
+  selected: true
+
+- title: "AI-Enabled Ensemble Learning Framework for Predicting Road Accident Severity"
+  authors: "F. N. Nur, M. N. Islam and A. S. Afridi"
+  venue: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), Rangpur, Bangladesh, 2025, pp. 1-6"
+  year: 2025
+  type: Conference
+  image: "assets/publications/2025-ai-enabled-ensemble-learning-framework-for.svg"
+  doi: "10.1109/QPAIN66474.2025.11172248"
+
+- title: "Distributed Intrusion Detection System For Edge of Things To Enhance Security"
+  authors: "A. P. Chowdhury, S. K. Hossain, F. N. Nur, A. H. M. Saiful Islam and S. Sultana"
+  venue: "2025 2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM), Gazipur, Bangladesh, 2025, pp. 1-6"
+  year: 2025
+  type: Conference
+  image: "assets/publications/2025-distributed-intrusion-detection-system-for-edge.svg"
+  doi: "10.1109/NCIM65934.2025.11160191"
+
+- title: "Automated Food Spoilage Detection Using Deep Learning: A CNN-Based Approach"
+  authors: "R. Chowdhury, M. T. Rahman, F. N. Nur, S. Sultana and A. H. M. Saiful Islam"
+  venue: "2025 2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM), Gazipur, Bangladesh, 2025, pp. 1-6"
+  year: 2025
+  type: Conference
+  image: "assets/publications/2025-automated-food-spoilage-detection-using-deep.svg"
+  doi: "10.1109/NCIM65934.2025.11160190"
+
+- title: "Air Quality Monitoring and Pollution Prediction Using Machine Learning"
+  authors: "M. N. Eva, A. I. Audri, F. N. Nur and A. H. M. S. Islam"
+  venue: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), Rangpur, Bangladesh, 2025, pp. 1-6"
+  year: 2025
+  type: Conference
+  image: "assets/publications/2025-air-quality-monitoring-and-pollution-prediction.svg"
+  doi: "10.1109/QPAIN66474.2025.11171644"
+
+- title: "Comparative Analysis of Pre-Trained CNN Models for Plant Disease Detection"
+  authors: "Md Hasibul Islam, and Fernaz Narin Nur"
+  venue: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), pp. 1-6. IEEE, 2025"
+  year: 2025
+  type: Conference
+  image: "assets/publications/2025-comparative-analysis-of-pre-trained-cnn.svg"
+  doi: "10.1109/qpain66474.2025.11172119"
+
+- title: "Ensemble Learning for Cyberbullying Detection: A Transformer-Based Approach on English and Bangla Texts"
+  authors: "F. Islam, A. Abdullah, M. Z. Hossen Emon and F. N. Nur"
+  venue: "2025 International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN), Rangpur, Bangladesh, 2025, pp. 1-6"
+  year: 2025
+  type: Conference
+  image: "assets/publications/2025-ensemble-learning-for-cyberbullying-detection-a.svg"
+  doi: "10.1109/QPAIN66474.2025.11172171"
+
+- title: "Priority based energy and load aware routing algorithms for SDN enabled data center network"
+  authors: "Md. Naimul Pathan, Maisha Muntaha, Selina Sharmin, Sajeeb Saha, Md. Ashraf Uddin, Fernaz Narin Nur, Sunil Aryal"
+  venue: "Computer Networks, Volume 240, 2024, 110166"
+  year: 2024
+  type: Journal
+  image: "assets/publications/2024-priority-based-energy-and-load-aware.png"
+  image_alt: "Diagram: energy, load and data priority feed a joint optimization formulation, a greedy solution and two routing algorithms"
+  image_credit: "Figure from this paper, trimmed and resized"
+  image_license: "CC BY 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  doi: "10.1016/j.comnet.2023.110166"
+  selected: true
+
+- title: "Enhancing Semantic Web Retrieval Through Ontology-Driven Feature Extraction: A Novel Proposition"
+  authors: "M. H. Khan, M. I. Sharif, M. Mehmood, Fernaz Narin Nur, Md Palash Uddin, Z. Akhtar, K. Siddique, and S. W. Awan"
+  venue: "Journal of Computer Science (2024)"
+  year: 2024
+  type: Journal
+  image: "assets/publications/2024-enhancing-semantic-web-retrieval-through-ontology.png"
+  image_alt: "Flowchart of the proposed image retrieval model, from the selected image through feature extraction, ontology matching and semantic retrieval"
+  image_credit: "Fig. 3 from this paper, trimmed and resized"
+  image_license: "CC BY 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  doi: "10.3844/jcssp.2024.487.494"
+
+- title: "A Machine Learning Framework for Real-Time Intrusion Detection for Malicious Internet Activity"
+  authors: "R. Fabiha, S. J. Reberio, Z. Farazi, F. N. Nur and S. Sultana"
+  venue: "2024 6th International Conference on Sustainable Technologies for Industry 5.0 (STI), Narayanganj, Bangladesh, 2024, pp. 1-6"
+  year: 2024
+  type: Conference
+  image: "assets/publications/2024-a-machine-learning-framework-for-real.svg"
+  doi: "10.1109/STI64222.2024.10951140"
+
+- title: "Effects of Emotional Behavior Tree in Non-Playable Characters in Games"
+  authors: "M. A. A. Khan, M. M. I. Tashfi, F. N. Nur and S. Sultana"
+  venue: "2024 6th International Conference on Sustainable Technologies for Industry 5.0 (STI), Narayanganj, Bangladesh, 2024, pp. 1-7"
+  year: 2024
+  type: Conference
+  image: "assets/publications/2024-effects-of-emotional-behavior-tree-in.svg"
+  doi: "10.1109/STI64222.2024.10951084"
+
+- title: "Creating Multi-level AI Racing Agents Using a Combination of Imitation and Reinforcement Learning and Analyzing Similarity Using Cross-Correlation"
+  authors: "N. A. R. Sun, S. A. Palma, F. Narin Nur, H. B. Rashid and A. H. M. Saiful Islam"
+  venue: "2024 IEEE International Conference on Computing, Applications and Systems (COMPAS), Cox's Bazar, Bangladesh, 2024, pp. 1-19"
+  year: 2024
+  type: Conference
+  image: "assets/publications/2024-creating-multi-level-ai-racing-agents.svg"
+  doi: "10.1109/COMPAS60761.2024.10796663"
+
+- title: "Profiling Financial Health: Predictive Modeling of Personal Finance Behavior in the Context of Bangladesh"
+  authors: "T. Ahmed, T. Lasker, T. B. Abdullah, F. N. Nur and A. H. M. Saiful Islam"
+  venue: "2024 6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), Dhaka, Bangladesh, 2024, pp. 107-112"
+  year: 2024
+  type: Conference
+  image: "assets/publications/2024-profiling-financial-health-predictive-modeling-of.svg"
+  doi: "10.1109/ICEEICT62016.2024.10534331"
+
+- title: "AI-Based Precision Farming for Sustainable Agriculture in Bangladesh"
+  authors: "Rup Chowdhury, Md. Nazmul Islam, Prapti Das, Fernaz Narin Nur, A. H. M. Saiful Islam"
+  venue: "3rd International Conference on Trends in Electronics and Health Informatics (TEHI 2023), Jahangirnagar University, Bangladesh"
+  year: 2023
+  type: Conference
+  image: "assets/publications/2023-ai-based-precision-farming-for-sustainable.svg"
+  doi: "10.1007/978-981-97-3937-0_39"
+
+- title: "Job Title Prediction and Recommendation System for IT Professionals"
+  authors: "Shafika Rahman, Kazi Habiba, Sourav Roy, Fernaz Narin Nur"
+  venue: "2023 5th International Conference on Sustainable Technologies for Industry 5.0 (STI 2023), Green University, Bangladesh"
+  year: 2023
+  type: Conference
+  image: "assets/publications/2023-job-title-prediction-and-recommendation-system.svg"
+  doi: "10.1109/sti59863.2023.10464457"
+
+- title: "Time-Series Analysis and Accident Hotspots Identification in Dhaka City"
+  authors: "R. Tabassum, S. M. S. Tamjid, S. Sultana, Fernaz Narin Nur and T. T. Oishi"
+  venue: "2023 International Conference on Information and Communication Technology for Sustainable Development (ICICT4SD), Dhaka, Bangladesh, 2023, pp. 412-416"
+  year: 2023
+  type: Conference
+  image: "assets/publications/2023-time-series-analysis-and-accident-hotspots.svg"
+  doi: "10.1109/ICICT4SD59951.2023.10303460"
+
+- title: "IoT-Based Intelligent Gas Leakage Detection and Fire Protection System"
+  authors: "Gazi Zahirul Islam, Md. Mobarak Hossain, Md. Faruk, Fernaz Narin Nur, Nayeem Hasan, Md. Khalid Mahbub Khan, Zerin Nasrin Tumpa"
+  venue: "International Journal of Interactive Mobile Technologies (iJIM), vol. 16, no. 21, pp. 49-70, 2022"
+  year: 2022
+  type: Journal
+  image: "assets/publications/2022-iot-based-intelligent-gas-leakage-detection.png"
+  image_alt: "Block diagram: gas and flame sensors connect to a NodeMCU, which controls a GSM module, sound system, exhaust fan, display, gas valve and fire ball thrower"
+  image_credit: "Fig. 3 from this paper, trimmed and resized"
+  image_license: "CC BY 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  doi: "10.3991/ijim.v16i21.30311"
+
+- title: "Sentiment analysis on Bangla conversation using machine learning approach"
+  authors: "Mahmudul Hassan, Shahriar Shakil, Nazmun Nessa Moon, Mohammad Monirul Islam, Refath Ara Hossain, Asma Mariam, and Fernaz Narin Nur"
+  venue: "International Journal of Electrical & Computer Engineering 12, no. 5 (2022)"
+  year: 2022
+  type: Journal
+  image: "assets/publications/2022-sentiment-analysis-on-bangla-conversation-using.png"
+  image_alt: "Flow diagram: data collection, preprocessing and feature extraction, train and test selection, seven machine learning algorithms, and model training"
+  image_credit: "Figure 8 from this paper, trimmed and resized"
+  image_license: "CC BY-SA 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  doi: "10.11591/ijece.v12i5.pp5562-5572"
+
+- title: "Predicting the mental health of rural Bangladeshi children in coronavirus disease 2019"
+  authors: "Nazmun Nessa Moon, Refath Ara Hossain, Israt Jahan, Shahriar Shakil, Shihab Uddin, Mahmudul Hassan, and Fernaz Narin Nur"
+  venue: "International Journal of Electrical & Computer Engineering 12, no. 5 (2022)"
+  year: 2022
+  type: Journal
+  image: "assets/publications/2022-predicting-the-mental-health-of-rural.png"
+  image_alt: "Flow diagram: data collection, cleaning, normalization, feature extraction, training data, mental health classification and detection outcome"
+  image_credit: "Figure 1 from this paper, trimmed and resized"
+  image_license: "CC BY-SA 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+  doi: "10.11591/ijece.v12i5.pp5501-5510"
+
+- title: "Machine learning approach to predict the depression in job sectors in Bangladesh"
+  authors: "Nazmun Nessa Moon, Asma Mariam, Shayla Sharmin, Mohammad Monirul Islam, Fernaz Narin Nur, and Nebadita Debnath"
+  venue: "Current Research in Behavioral Sciences 2 (2021): 100058"
+  year: 2021
+  type: Journal
+  image: "assets/publications/2021-machine-learning-approach-to-predict-the.svg"
+  doi: "10.1016/j.crbeha.2021.100058"
+
+- title: "Effects of co-curricular activities on student’s academic performance by machine learning"
+  authors: "Shaikh Rezwan Rahman, Md Asfiul Islam, Pritidhrita Paul Akash, Masuma Parvin, Nazmun Nessa Moon, and Fernaz Narin Nur"
+  venue: "Current Research in Behavioral Sciences 2 (2021): 100057"
+  year: 2021
+  type: Journal
+  image: "assets/publications/2021-effects-of-co-curricular-activities-on.svg"
+  doi: "10.1016/j.crbeha.2021.100057"
+  selected: true
+
+- title: "Advanced Plant Disease Detection By Using Tensorflow"
+  authors: "Musfiqur Rahman Foysal, Nazmun Nessa Moon, Asma Mariam, Israt Jahan, and Fernaz Narin Nur"
+  venue: "2021 International Conference on Smart Generation Computing, Communication and Networking (SMART GENCON), pp. 1-4. IEEE, 2021"
+  year: 2021
+  type: Conference
+  image: "assets/publications/2021-advanced-plant-disease-detection-by-using.svg"
+  doi: "10.1109/smartgencon51891.2021.9645807"
+
+- title: "TraFoo: An Android Application for Food Delivery in Train"
+  authors: "Md Mosfikur Rahman, Musfiqur Rahman Foysal, Nazmun Nessa Moon, and Fernaz Narin Nur"
+  venue: "2021 International Conference on Smart Generation Computing, Communication and Networking (SMART GENCON), pp. 1-7. IEEE, 2021"
+  year: 2021
+  type: Conference
+  image: "assets/publications/2021-trafoo-an-android-application-for-food.svg"
+  doi: "10.1109/smartgencon51891.2021.9645900"
+
+- title: "Mobile Device and Social Media Forensic Analysis: Impacts on Cyber-Crime"
+  authors: "D. Saha, S. Karmakar, F. N. Nur, A. Mariam, N. N. Moon and A. Ahmed"
+  venue: "2021 1st International Conference on Emerging Smart Technologies and Applications (eSmarTA), 2021, pp. 1-8"
+  year: 2021
+  type: Conference
+  image: "assets/publications/2021-mobile-device-and-social-media-forensic.svg"
+  doi: "10.1109/eSmarTA52612.2021.9515742"
+
+- title: "Predicting Satisfaction of Online Banking System in Bangladesh by Machine Learning"
+  authors: "S. F. Shetu, I. Jahan, M. M. Islam, R. Ara Hossain, N. N. Moon and F. Narin Nur"
+  venue: "2021 International Conference on Artificial Intelligence and Computer Science Technology (ICAICST), 2021, pp. 223-228"
+  year: 2021
+  type: Conference
+  image: "assets/publications/2021-predicting-satisfaction-of-online-banking-system.svg"
+  doi: "10.1109/ICAICST53116.2021.9497796"
+
+- title: "Machine Learning Approach to Predict SGPA and CGPA"
+  authors: "M. Saifuzzaman, M. Parvin, I. Jahan, N. N. Moon, F. Narin Nur and S. F. Shetu"
+  venue: "2021 International Conference on Artificial Intelligence and Computer Science Technology (ICAICST), 2021, pp. 211-216"
+  year: 2021
+  type: Conference
+  image: "assets/publications/2021-machine-learning-approach-to-predict-sgpa.svg"
+  doi: "10.1109/ICAICST53116.2021.9497847"
+
+- title: "Cognitive Learning Environment and Classroom Analytics (CLECA): A Method Based on Dynamic Data Mining Techniques"
+  authors: "Miftah Al Karim, Asif Karim, Sami Azam, Eshtiak Ahmed, Friso De Boer, Ashraful Islam, Fernaz Narin Nur"
+  venue: "Lecture Notes on Data Engineering and Communications Technologies, vol 59. Springer, Singapore, 2021"
+  year: 2021
+  type: Conference
+  image: "assets/publications/2021-cognitive-learning-environment-and-classroom-analytics.svg"
+  doi: "10.1007/978-981-15-9651-3_63"
+
+- title: "Healthcare Applications in IoT"
+  authors: "Md Sanju Islam, Fozilatoon Humaira, and Fernaz Narin Nur"
+  venue: "Global. J. Med Res. B Pharma Drug Discov. Toxicol. Med 20 (2020): 1-3"
+  year: 2020
+  type: Journal
+  image: "assets/publications/2020-healthcare-applications-in-iot.svg"
+  doi: "10.34257/gjmrbvol20is2pg11"
+
+- title: "Predicting the depression level of excessive use of mobile phone: decision tree and linear regression algorithm"
+  authors: "Imrus Salehin, Iftakhar Mohammad Talha, Nazmun Nessa Moon, Mohd Saifuzzaman, Fernaz Narin Nur, and Mariom Akter"
+  venue: "2020 IEEE International Conference on Sustainable Engineering and Creative Computing (ICSECC), pp. 113-118. IEEE, 2020"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-predicting-the-depression-level-of-excessive.svg"
+  doi: "10.1109/icsecc51444.2020.9557394"
+
+- title: "An Advanced Method of Treating Agricultural Crops Using Image Processing Algorithms and Image Data Processing Systems"
+  authors: "I. Salehin, I. M. Talha, M. Saifuzzaman, N. N. Moon and F. N. Nur"
+  venue: "2020 IEEE 5th International Conference on Computing Communication and Automation (ICCCA), 2020, pp. 720-724"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-an-advanced-method-of-treating-agricultural.svg"
+  doi: "10.1109/ICCCA49541.2020.9250839"
+
+- title: "A novel IoT based accident detection and rescue system"
+  authors: "Pranto Karmokar, Saikot Bairagi, Anuprova Mondal, Fernaz Narin Nur, Nazmun Nessa Moon, Asif Karim, and Kheng Cher Yeo"
+  venue: "2020 Third International Conference on Smart Systems and Inventive Technology (ICSSIT), pp. 322-327. IEEE, 2020"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-a-novel-iot-based-accident-detection.svg"
+  doi: "10.1109/icssit48917.2020.9214296"
+  selected: true
+
+- title: "Human Behaviour Impact to Use of Smartphones with the Python Implementation Using Naive Bayesian"
+  authors: "I. M. Talha, I. Salehin, S. C. Debnath, M. Saifuzzaman, N. N. Moon and F. N. Nur"
+  venue: "2020 11th International Conference on Computing, Communication and Networking Technologies (ICCCNT), 2020, pp. 1-6"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-human-behaviour-impact-to-use-of.svg"
+  doi: "10.1109/ICCCNT49239.2020.9225620"
+
+- title: "A Comprehensive Study on Machine Learning Algorithms for Wireless Sensor Network Security"
+  authors: "F. Humaira, M. S. Islam, F. N. Nur and K. A. Hussain"
+  venue: "2020 11th International Conference on Computing, Communication and Networking Technologies (ICCCNT), 2020, pp. 1-6"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-a-comprehensive-study-on-machine-learning.svg"
+  doi: "10.1109/ICCCNT49239.2020.9225659"
+
+- title: "IoT Based Street Lighting Using Dual Axis Solar Tracker and Effective Traffic Management System Using Deep Learning: Bangladesh Context"
+  authors: "M. Saifuzzaman, S. F. Shetu, N. N. Moon, F. N. Nur and M. H. Ali"
+  venue: "2020 11th International Conference on Computing, Communication and Networking Technologies (ICCCNT), 2020, pp. 1-5"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-iot-based-street-lighting-using-dual.svg"
+  doi: "10.1109/ICCCNT49239.2020.9225590"
+
+- title: "An efficient development of automated attendance management system"
+  authors: "Nazmun Nessa Moon, Fernaz Narin Nur, Mohd Saifuzzaman, Farah Sharmin, Protik Hosen, and Syeda Farjana Shetu"
+  venue: "Proceedings of the International Conference on Innovative Computing & Communications (ICICC), 2020"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-an-efficient-development-of-automated-attendance.svg"
+  doi: "10.2139/ssrn.3563387"
+
+- title: "D-care: A non-invasive glucose measuring technique for monitoring diabetes patients"
+  authors: "Md Alam, Swapnil Saha, Proshib Saha, Fernaz Narin Nur, Nazmun Nessa Moon, Asif Karim, and Sami Azam"
+  venue: "Proceedings of International Joint Conference on Computational Intelligence, pp. 443-453. Springer, Singapore, 2020"
+  year: 2020
+  type: Conference
+  image: "assets/publications/2020-d-care-a-non-invasive-glucose.svg"
+  doi: "10.1007/978-981-13-7564-4_38"
+
+- title: "High-Throughput Link-Channel Selection and Power Allocation in Wireless Mesh Networks"
+  authors: "M. Islam, S. Sharmin, F. N. Nur, M. A. Razzaque, M. M. Hassan and A. Alelaiwi"
+  venue: "IEEE Access, vol. 7, pp. 161040-161051, 2019"
+  year: 2019
+  type: Journal
+  image: "assets/publications/2019-high-throughput-link-channel-selection-and.svg"
+  doi: "10.1109/ACCESS.2019.2950778"
+
+- title: "Target Coverage-Aware Clustering in Directional Sensor Networks: A Distributed Approach"
+  authors: "S. Sharmin, F. N. Nur, M. Islam, M. A. Razzaque, M. M. Hassan and A. Alelaiwi"
+  venue: "IEEE Access, vol. 7, pp. 64005-64014, 2019"
+  year: 2019
+  type: Journal
+  image: "assets/publications/2019-target-coverage-aware-clustering-in-directional.svg"
+  doi: "10.1109/ACCESS.2019.2916407"
+
+- title: "Priority-Based Offloading and Caching in Mobile Edge Cloud"
+  authors: "Fernaz Narin Nur, Saiful Islam, Nazmun Nessa Moon, Asif Karim, Sami Azam, and Bharanidharan Shanmugam"
+  venue: "Journal of Communications Software and Systems 15, no. 2 (2019)"
+  year: 2019
+  type: Journal
+  image: "assets/publications/2019-priority-based-offloading-and-caching-in.svg"
+  doi: "10.24138/jcomss.v15i2.707"
+
+- title: "Lifecraft: An Android Based Application System for Women Safety"
+  authors: "R. R. Khandoker, S. Khondaker, Fatiha-Tus-Sazia, F. N. Nur and S. Sultana"
+  venue: "2019 International Conference on Sustainable Technologies for Industry 4.0 (STI), 2019, pp. 1-6"
+  year: 2019
+  type: Conference
+  image: "assets/publications/2019-lifecraft-an-android-based-application-system.svg"
+  doi: "10.1109/STI47673.2019.9068024"
+
+- title: "BSSID based Monitoring Class Attendance System Using WiFi"
+  authors: "M. Hasan, D. Saha, J. Ferdosh, F. N. Nur, N. N. Moon and M. Saifuzzaman"
+  venue: "2019 Third International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC), 2019, pp. 243-248"
+  year: 2019
+  type: Conference
+  image: "assets/publications/2019-bssid-based-monitoring-class-attendance-system.svg"
+  doi: "10.1109/I-SMAC47947.2019.9032699"
+
+- title: "Humidity Based Automated Room Temperature Controller Using IoT"
+  authors: "Farah Sharmin, Nazmun Nessa Moon, Mohd Saifuzzaman, Abir Hasan, Shakib-Bin-Al-Beruni, Mohammad Alam Hossain, Fernaz Narin Nur"
+  venue: "2019 Third International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC), pp. 226-231. IEEE, 2019"
+  year: 2019
+  type: Conference
+  image: "assets/publications/2019-humidity-based-automated-room-temperature-controller.svg"
+  doi: "10.1109/i-smac47947.2019.9032624"
+
+- title: "A survey of botnet in cyber security"
+  authors: "Syeda Farjana Shetu, Mohd Saifuzzaman, Nazmun Nessa Moon, and Fernaz Narin Nur"
+  venue: "2019 2nd International Conference on Intelligent Communication and Computational Techniques (ICCT), pp. 174-177. IEEE, 2019"
+  year: 2019
+  type: Conference
+  image: "assets/publications/2019-a-survey-of-botnet-in-cyber.svg"
+  doi: "10.1109/icct46177.2019.8969048"
+  selected: true
+
+- title: "An Intelligent and Secured Tracking System for Monitoring School Bus"
+  authors: "Asif Ahmed, M M Rayhan Parvez, Md Hridoy Hasan, Fernaz Narin Nur, Nazmun Nessa Moon, Asif Karim, Sami Azam, Bharanidharan Shanmugam, Mirjam Jonkman"
+  venue: "International Conference on Computer Communication and Informatics (ICCCI 2019), Sri Shakthi Institute of Engineering and Technology (SIET), January 23-25, 2019"
+  year: 2019
+  type: Conference
+  image: "assets/publications/2019-an-intelligent-and-secured-tracking-system.svg"
+  doi: "10.1109/iccci.2019.8822187"
+
+- title: "Analysis of complex networks for security issues using attack graph"
+  authors: "Tanvirali Musa, Kheng Cher Yeo, Sami Azam, Bharanidharan Shanmugam, Asif Karim, Friso De Boer, Fernaz Narin Nur, Fahad Faisal"
+  venue: "International Conference on Computer Communication and Informatics (ICCCI 2019), Sri Shakthi Institute of Engineering and Technology (SIET), January 23-25, 2019"
+  year: 2019
+  type: Conference
+  image: "assets/publications/2019-analysis-of-complex-networks-for-security.svg"
+  doi: "10.1109/iccci.2019.8822179"
+
+- title: "A Priority-Based Process Scheduling Algorithm in Cloud Computing"
+  authors: "Misbahul Haque, Rakibul Islam, Md Rubayeth Kabir, Fernaz Narin Nur, and Nazmun Nessa Moon"
+  venue: "Emerging Technologies in Data Mining and Information Security, pp. 239-248. Springer, Singapore, 2019"
+  year: 2019
+  type: Book chapter
+  image: "assets/publications/2019-a-priority-based-process-scheduling-algorithm.svg"
+  doi: "10.1007/978-981-13-1951-8_22"
+
+- title: "Enjoy and Learn with Educational Game: Likhte Likhte Shikhi Apps for Child Education"
+  authors: "Md Walid Bin Khalid Aunkon, Md Hasanuzzaman Dipu, Nazmun Nessa Moon, Mohd Saifuzzaman, and Fernaz Narin Nur"
+  venue: "Emerging Technologies in Data Mining and Information Security, pp. 409-417. Springer, Singapore, 2019"
+  year: 2019
+  type: Book chapter
+  image: "assets/publications/2019-enjoy-and-learn-with-educational-game.svg"
+  doi: "10.1007/978-981-13-1951-8_37"
+
+- title: "Music Playing and Wallpaper Changing System Based on Emotion from Facial Expression"
+  authors: "Protik Hosen, Nuruzzaman Himel, Md Asaduzzaman Adil, Nazmun Nessa Moon, and Fernaz Narin Nur"
+  venue: "Emerging Technologies in Data Mining and Information Security, pp. 79-87. Springer, Singapore, 2019"
+  year: 2019
+  type: Book chapter
+  image: "assets/publications/2019-music-playing-and-wallpaper-changing-system.svg"
+  doi: "10.1007/978-981-13-1951-8_8"
+
+- title: "An Efficient Mobile-Sink Trajectory to Maximize Network Lifetime in Wireless Sensor Network"
+  authors: "A. Habib, S. Saha, F. N. Nur, A. Razzaque and M. Mamun-Or-Rashid"
+  venue: "2018 International Conference on Innovation in Engineering and Technology (ICIET), Dhaka, Bangladesh, 2018, pp. 1-5"
+  year: 2018
+  type: Conference
+  image: "assets/publications/2018-an-efficient-mobile-sink-trajectory-to.svg"
+  doi: "10.1109/CIET.2018.8660848"
+
+- title: "BREATHE SAFE: A Smart Garbage Collection System for Dhaka City"
+  authors: "Md Junayed Siddique, Mohammad Aynul Islam, Fernaz Narin Nur, Nazmun Nessa Moon and Mohd. Saifuzzaman"
+  venue: "International Conference on Electrical and Computer Engineering (ICECE 2018), Bangladesh University of Engineering & Technology (BUET), Dhaka, Bangladesh, December 20-22, 2018"
+  year: 2018
+  type: Conference
+  image: "assets/publications/2018-breathe-safe-a-smart-garbage-collection.svg"
+  doi: "10.1109/icece.2018.8636767"
+
+- title: "Collaborative Neighbor Discovery in Directional Wireless Sensor Networks: Algorithm and Analysis"
+  authors: "Fernaz Narin Nur, Selina Sharmin, Md. Ahsan Habib, Md. Abdur Razzaque, Md. Shariful Islam, Ahmad Almogren, Mohammad Mehedi Hassan, Atif Alamri"
+  venue: "EURASIP Journal on Wireless Communications and Networking, Springer, 2017, 119"
+  year: 2017
+  type: Journal
+  image: "assets/publications/2017-collaborative-neighbor-discovery-in-directional-wireless.png"
+  image_alt: "Diagram of a node schedule of hello, listen and reply slots, and of three nodes discovering each other through numbered directional sectors"
+  image_credit: "Fig. 2 from this paper, trimmed and resized"
+  image_license: "CC BY 4.0"
+  image_license_url: "https://creativecommons.org/licenses/by/4.0/"
+  doi: "10.1186/s13638-017-0903-6"
+
+- title: "α-Overlapping Area Coverage for Clustered Directional Sensor Networks"
+  authors: "Selina Sharmin, Fernaz Narin Nur, Md. Abdur Razzaque, Md. Mustafizur Rahman, Abdulhameed Alelaiwi, Mohammad Mehedi Hassan, Sk. Md. Mizanur Rahman"
+  venue: "Computer Communications, Volume 109, 1 September 2017, pp. 89-103"
+  year: 2017
+  type: Journal
+  image: "assets/publications/2017-alpha-overlapping-area-coverage-for-clustered.svg"
+  doi: "10.1016/j.comcom.2017.05.011"
+
+- title: "Tradeoff Between Sensing Quality and Network Lifetime for Heterogeneous Target Coverage Using Directional Sensor Nodes"
+  authors: "Selina Sharmin, Fernaz Narin Nur, Md. Abdur Razzaque, Md. Mustafizur Rahman, Ahmad Almogren, Mohammad Mehedi Hassan"
+  venue: "IEEE Access, vol. 5, pp. 15490-15504, 2017"
+  year: 2017
+  type: Journal
+  image: "assets/publications/2017-tradeoff-between-sensing-quality-and-network.svg"
+  doi: "10.1109/ACCESS.2017.2718548"
+
+- title: "Smart Security for an Organization based on IoT"
+  authors: "Mohd. Saifuzzaman, Ashraf Hossain Khan, Nazmun Nessa Moon and Fernaz Narin Nur"
+  venue: "International Journal of Computer Applications Volume 165 – No.10, May 2017"
+  year: 2017
+  type: Journal
+  image: "assets/publications/2017-smart-security-for-an-organization-based.svg"
+  selected: true
+
+- title: "A Literature Review of the Trend of Electronic Commerce in Bangladesh Perspective"
+  authors: "Nazmun Nessa Moon, Shaheena Sultana, Fernaz Narin Nur and Mohd. Saifuzzaman"
+  venue: "Global Journal of Management and Business Research: B Economics and Commerce, Volume 17, Issue 3, pp. 11-18, 2017"
+  year: 2017
+  type: Journal
+  image: "assets/publications/2017-a-literature-review-of-the-trend.svg"
+
+- title: "IoT Based Street Lighting and Traffic Management System"
+  authors: "Mohd. Saifuzzaman, Nazmun Nessa Moon and Fernaz Narin Nur"
+  venue: "IEEE Region 10 Humanitarian Technology Conference 2017 (IEEE R10HTC), Bangladesh University of Engineering & Technology (BUET), Dhaka, Bangladesh, December 21-23, 2017"
+  year: 2017
+  type: Conference
+  image: "assets/publications/2017-iot-based-street-lighting-and-traffic.svg"
+  doi: "10.1109/r10-htc.2017.8288921"
+  selected: true
+
+- title: "Quality-aware Directional MAC Protocol for Multi-channel Wireless Sensor Networks"
+  authors: "Fernaz Narin Nur, Selina Sharmin, Md. Abdur Razzaque, Md Shariful Islam"
+  venue: "IEEE International Symposium on Parallel and Distributed Processing with Applications (IEEE ISPA 2017), Guangzhou, China, 12-15 December 2017"
+  year: 2017
+  type: Conference
+  image: "assets/publications/2017-quality-aware-directional-mac-protocol-for.svg"
+  doi: "10.1109/ispa/iucc.2017.00027"
+
+- title: "Target Coverage-Aware Clustering for Directional Sensor Networks"
+  authors: "Selina Sharmin, Fernaz Narin Nur, M.A. Razzaque, and M.M. Rahman"
+  venue: "IEEE International Symposium on Parallel and Distributed Processing with Applications (IEEE ISPA 2017), Guangzhou, China, 12-15 December 2017"
+  year: 2017
+  type: Conference
+  image: "assets/publications/2017-target-coverage-aware-clustering-for-directional.svg"
+  doi: "10.1109/ispa/iucc.2017.00026"
+
+- title: "A Low Duty Cycle MAC Protocol for Directional Wireless Sensor Networks"
+  authors: "Fernaz Narin Nur, Selina Sharmin, Md. Abdur Razzaque, Md. Shariful Islam, and Mohammad Mehedi Hassan"
+  venue: "Wireless Personal Communications, Springer US, pp. 1-25, Oct 2016"
+  year: 2016
+  type: Journal
+  image: "assets/publications/2016-a-low-duty-cycle-mac-protocol.svg"
+  doi: "10.1007/s11277-016-3728-4"
+
+- title: "Collaborative Neighbor Discovery in Directional Wireless Sensor Networks"
+  authors: "Fernaz Narin Nur, Selina Sharmin, Md. Ahsan Habib, Md. Abdur Razzaque, Md. Shariful Islam"
+  venue: "IEEE TENCON 2016 — Technologies for Smart Nation (22-25 November 2016, Singapore)"
+  year: 2016
+  type: Conference
+  image: "assets/publications/2016-collaborative-neighbor-discovery-in-directional-wireless.svg"
+  doi: "10.1109/tencon.2016.7848178"
+
+- title: "Network Lifetime Aware Coverage Quality Maximization for Heterogeneous Targets in DSNs"
+  authors: "Selina Sharmin, Fernaz Narin Nur, Md. Abdur Razzaque, and Md. Mustafizur Rahman"
+  venue: "IEEE TENCON 2016 — Technologies for Smart Nation (22-25 November 2016, Singapore)"
+  year: 2016
+  type: Conference
+  image: "assets/publications/2016-network-lifetime-aware-coverage-quality-maximization.svg"
+  doi: "10.1109/tencon.2016.7848603"
+
+- title: "Starfish Routing for Wireless Sensor Networks with a Mobile Sink"
+  authors: "Md. Ahsan Habib, Sajeeb Saha, Fernaz Narin Nur, Md. Abdur Razzaque"
+  venue: "IEEE TENCON 2016 — Technologies for Smart Nation (22-25 November 2016, Singapore)"
+  year: 2016
+  type: Conference
+  image: "assets/publications/2016-starfish-routing-for-wireless-sensor-networks.svg"
+  doi: "10.1109/tencon.2016.7848177"
+
+- title: "Optimization of Wireless Ad-hoc Networks using an Adjacent Collaborative Directional MAC (ACDM) Protocol"
+  authors: "Mohammad Samawat Ullah, Fernaz Narin Nur, Nazmun Nessa Moon"
+  venue: "International Journal of Computer Applications Volume 114 – No. 3, March 2015"
+  year: 2015
+  type: Journal
+  image: "assets/publications/2015-optimization-of-wireless-ad-hoc-networks.svg"
+  doi: "10.5120/19962-1806"
+
+- title: "Area coverage for clustered directional sensor networks using Voronoi diagram"
+  authors: "Selina Sharmin, Fernaz Narin Nur, Md. Abdur Razzaque, and Md. Mustafizur Rahman"
+  venue: "2015 IEEE International WIE Conference on Electrical and Computer Engineering (WIECON-ECE), pp. 370-373. IEEE, 2015"
+  year: 2015
+  type: Conference
+  image: "assets/publications/2015-area-coverage-for-clustered-directional-sensor.svg"
+  doi: "10.1109/wiecon-ece.2015.7443941"
+
+- title: "A duty cycle directional MAC protocol for wireless sensor networks"
+  authors: "Fernaz Narin Nur, Selina Sharmin, Md. Abdur Razzaque, Md. Shariful Islam"
+  venue: "International Conference on Networking Systems and Security (NSysS), 2015"
+  year: 2015
+  type: Conference
+  image: "assets/publications/2015-a-duty-cycle-directional-mac-protocol.svg"
+  doi: "10.1109/NSysS.2015.7042950"
+
+- title: "Network lifetime aware area coverage for clustered directional sensor networks"
+  authors: "Selina Sharmin, Fernaz Narin Nur, Md. Abdur Razzaque, Md. Mustafizur Rahman"
+  venue: "International Conference on Networking Systems and Security (NSysS), 2015"
+  year: 2015
+  type: Conference
+  image: "assets/publications/2015-network-lifetime-aware-area-coverage-for.svg"
+  doi: "10.1109/NSysS.2015.7042949"
+
+- title: "Directional MAC Protocols in Ad-Hoc Networks"
+  authors: "S. Majumder, S. Emdadul Haque, Fernaz Narin Nur"
+  venue: "International Journal of Computer Applications, Volume 100, August 2014, pp. 105-108"
+  year: 2014
+  type: Journal
+  image: "assets/publications/2014-directional-mac-protocols-in-ad-hoc.svg"
+  doi: "10.5120/17571-8259"
+
+- title: "An Improved Algorithm for Solving Helix Generation of RNA Secondary Structure Prediction"
+  authors: "Nazmun Nessa Moon, Fernaz Narin Nur, Syed Akhter Hossain"
+  venue: "17th Int’l Conf. on Computer and Information Technology, Daffodil International University, Dhaka, Bangladesh, 22-23 December 2014"
+  year: 2014
+  type: Conference
+  image: "assets/publications/2014-an-improved-algorithm-for-solving-helix.svg"
+  doi: "10.1109/iccitechn.2014.7073124"
+
+- title: "Congestion Aware Fair Data Delivery in Wireless Multimedia Sensor Networks"
+  authors: "Fernaz Narin Nur, Selina Sharmin, Md. Abdur Razzaque, M. Abdullah-Al-Wadud"
+  venue: "Recent Advances in Computer Engineering, Communications and Information Technology, WSEAS, Spain, 2014"
+  year: 2014
+  type: Conference
+  image: "assets/publications/2014-congestion-aware-fair-data-delivery-in.svg"
+
+- title: "A Survey on Routing Protocols in Wireless Multimedia Sensor Networks"
+  authors: "Fernaz Narin Nur, Nazmun Nessa Moon, Narayan Ranjan Chakraborty"
+  venue: "International Journal of Computer Applications (IJCA) 73(11):41-46, July 2013"
+  year: 2013
+  type: Journal
+  image: "assets/publications/2013-a-survey-on-routing-protocols-in.svg"
+
+- title: "Size Independent Bangla Character Recognition System"
+  authors: "Nazmun Nessa Moon, Fernaz Narin Nur"
+  venue: "LAP LAMBERT Academic Publishing, Germany, January 2013, ISBN 978-3-8473-4165-9"
+  year: 2013
+  type: Book
+  image: "assets/publications/2013-size-independent-bangla-character-recognition-system.svg"
+
+- title: "RSS Technology and it’s usage over internet"
+  authors: "Fernaz Narin Nur, Nazmun Nessa Moon"
+  venue: "International Journal of Advanced and Innovative Research (IJAIR-2012), Volume 1, Issue 6, November 2012, pp. 105-108"
+  year: 2012
+  type: Journal
+  image: "assets/publications/2012-rss-technology-and-its-usage-over.svg"
+
+- title: "Health care system based on Cloud Computing"
+  authors: "Fernaz Narin Nur, Nazmun Nessa Moon"
+  venue: "Asian Transactions on Computers, Volume 02, Issue 05, November 2012, pp. 9-11"
+  year: 2012
+  type: Journal
+  image: "assets/publications/2012-health-care-system-based-on-cloud.svg"

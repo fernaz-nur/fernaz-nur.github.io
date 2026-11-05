@@ -1,0 +1,9 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.DS_Store
+.claude/
+.bundle/
+vendor/
+Gemfile.lock
+_private-notes.md

@@ -1,0 +1,8 @@
+{%- for entry in include.items %}
+<div class="row">
+  <div class="row-top"><span class="row-title">{{ entry.title | escape }}</span>{% if entry.period and entry.period != "" %}<span class="row-when">{{ entry.period | escape }}</span>{% endif %}</div>
+  {%- if entry.detail %}
+  <div class="row-detail">{{ entry.detail | escape }}</div>
+  {%- endif %}
+</div>
+{%- endfor %}

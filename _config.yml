@@ -1,0 +1,11 @@
+title: Dr. Fernaz Narin Nur
+description: Academic website of Dr. Fernaz Narin Nur, Associate Dean & Professor, Department of Computer Science and Engineering, Daffodil International University.
+
+url: https://raficloud.github.io
+baseurl: /fernaz-nur.github.io
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

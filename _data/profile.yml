@@ -1,0 +1,91 @@
+# Everything shown about the professor, apart from publications.
+# Keep the indentation, and keep the quotation marks around text values.
+
+name: "Dr. Fernaz Narin Nur"
+position: "Associate Dean & Professor"
+department: "Department of Computer Science and Engineering"
+faculty: "Faculty of Science and Information Technology"
+university: "Daffodil International University · Bangladesh"
+email: "fernaz.cse@diu.edu.bd"
+teaching_since: 2011
+
+bio:
+  - "I’m Dr. Fernaz Narin Nur, a Professor in the Department of Computer Science and Engineering at Daffodil International University, Bangladesh. My research interests include Network Security, Quantum Computing, Wireless Networks, Internet of Things (IoT), and Artificial Intelligence (AI). I’m passionate about exploring how emerging technologies can be leveraged to build secure, intelligent, and efficient systems. Throughout my career, I’ve been committed to advancing research, mentoring students, and contributing to innovations that shape the future of computing."
+
+# The first link becomes the gold button on the home page.
+links:
+  - label: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=2D3mKUYAAAAJ&hl=en"
+  - label: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Fernaz-Nur"
+  - label: "Faculty Profile"
+    url: "https://faculty.daffodilvarsity.edu.bd/profile/cse/fernaz.html"
+
+research_interests:
+  - "Wireless Networks"
+  - "Cloud Computing"
+  - "Internet of Things"
+  - "Network Security"
+  - "Cyber Security"
+  - "Artificial Intelligence"
+  - "Software-Defined Networking"
+  - "Quantum Computing"
+
+teaching:
+  - "Computer Networks"
+  - "Network Security"
+  - "Internet of Things"
+  - "Cloud Computing"
+  - "Database Management Systems"
+
+education:
+  - period: "2017"
+    title: "PhD"
+    detail: "Computer Science and Engineering, University of Dhaka. Thesis: Duty-cycle Medium Access Control for Directional Wireless Sensor Networks"
+  - period: "2010"
+    title: "Master in Information Technology"
+    detail: "University of Dhaka"
+  - period: "2006"
+    title: "BSc in Computer Science and Engineering"
+    detail: "Jahangirnagar University"
+
+# All positions are in Computer Science and Engineering departments.
+positions:
+  - period: "Current"
+    title: "Associate Dean & Professor"
+    detail: "Daffodil International University"
+  - period: "Apr 2024 – Sep 2025"
+    title: "Professor"
+    detail: "Military Institute of Science and Technology (MIST)"
+  - period: "Jan 2023 – Jun 2024"
+    title: "Associate Professor (Adjunct)"
+    detail: "East West University"
+  - period: "Jan 2019 – Apr 2024"
+    title: "Associate Professor"
+    detail: "Notre Dame University Bangladesh (NDUB)"
+  - period: "Sep 2015 – Jan 2019"
+    title: "Assistant Professor"
+    detail: "Daffodil International University"
+  - period: "Sep 2012 – Sep 2015"
+    title: "Senior Lecturer"
+    detail: "Daffodil International University"
+  - period: "Oct 2011 – Sep 2012"
+    title: "Lecturer"
+    detail: "State University of Bangladesh"
+  - period: "Jan 2011 – Sep 2011"
+    title: "Lecturer"
+    detail: "World University of Bangladesh"
+
+fellowships:
+  - period: "Apr – Dec 2025"
+    title: "Research fellowship"
+    detail: "Asia-Europe Foundation (ASEF) Innovation Lab"
+  - period: ""
+    title: "Research fellowship"
+    detail: "Information and Communication Technology Division, Ministry of Posts, Telecommunications and Information Technology, Government of Bangladesh"
+  - period: "Sep – Oct 2016"
+    title: "APNIC 42 conference fellowship"
+    detail: "Asia Pacific Network Information Centre, Colombo, Sri Lanka"
+  - period: "Apr 2016"
+    title: "MEETBdREN 2016 workshop fellowship"
+    detail: "University of Dhaka"

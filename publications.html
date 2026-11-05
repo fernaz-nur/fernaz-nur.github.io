@@ -1,0 +1,32 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Publications by Dr. Fernaz Narin Nur, including journal papers, conference papers, book chapters and books.
+---
+{%- assign pubs = site.data.publications -%}
+{%- assign by_type = pubs | group_by: "type" -%}
+{%- assign by_year = pubs | group_by: "year" | sort: "name" | reverse -%}
+{%- assign scholar = site.data.profile.links | where: "label", "Google Scholar" | first %}
+  <section class="page-head">
+    <div class="inner">
+      <h1>Publications</h1>
+      <p>{{ pubs | size }} publications: {% for group in by_type %}{{ group.name }} {{ group.size }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+      <div class="buttons"><a class="button button-main" href="{{ scholar.url | escape }}" target="_blank" rel="noopener">Google Scholar</a></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="inner">
+      {%- for group in by_year %}
+      <div class="year-group">
+        <h2>{{ group.name }}</h2>
+        <div class="pub-list">
+          {%- for pub in group.items %}
+          {% include publication.html pub=pub %}
+          {%- endfor %}
+        </div>
+      </div>
+      {%- endfor %}
+    </div>
+  </section>
