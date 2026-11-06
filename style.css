@@ -175,8 +175,15 @@ h2 { font-family: var(--display); font-weight: 400; font-size: 40px; line-height
   .topbar nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--plum); border-top: 1px solid var(--plum-2); padding: 14px 20px 20px; flex-direction: column; gap: 12px; }
   .topbar nav.open { display: flex; }
   .topbar nav a { font-size: 16px; }
-  .roles { flex-direction: column; }
+  /* Phones: photo, then name, then titles, centred like a profile card. The bio stays left-aligned for reading. */
+  .hero-text { display: flex; flex-direction: column; text-align: center; }
+  .hero h1 { order: -1; margin-bottom: 14px; }
+  .role { margin-bottom: 6px; }
+  .roles { flex-direction: column; align-items: center; margin: 0 0 18px; }
   .roles span + span::before { display: none; }
+  .org { font-size: 14px; text-wrap: balance; }
+  .bio { text-align: left; }
+  .buttons { justify-content: center; }
   .buttons, .contact-links { gap: 10px; }
   .icon-link { width: 44px; height: 44px; }
   .icon-link svg { width: 24px; height: 24px; }
